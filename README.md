@@ -1,12 +1,12 @@
 # K8s cluster using Kubespray on Vagrant with GlusterFS with Ubuntu 20.04 
 
-### Step 1# Download repo with Vagrantfile and Spinup base nodes
+### Step 1# Spinup base nodes
 
 ```bash
-git clone ..
-cd k8s-ubuntu
 vagrant u
 ```
+
+This will provision 3 nodes with extra HDD that we are going to use for glusterfs
 
 ### Step 2# Download and setup environment for kubespray
 
